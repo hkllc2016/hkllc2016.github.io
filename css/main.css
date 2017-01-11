@@ -1,0 +1,84 @@
+body {
+    font: 24px 'Merriweather', sans-serif;
+    line-height: 1.8;
+    color: white;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Merriweather', sans-serif;
+    line-height: 1.5;
+}
+
+
+.english {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.margin30 {
+    margin-bottom: 30px;
+}
+
+.bg-1 {
+    background-color: #F5F5F5;
+    color: black;
+    z-index: 1;
+}
+
+.bg-2 {
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background: #444444;
+    z-index: 2;
+}
+
+.dropdown-menu {
+    background-color: #F7F7F9; /* Green */
+    color: #7B7B7B;
+    z-index: 1;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar-nav li > a {
+    color: white;
+}
+
+#bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+#welcomeTxt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#txt{
+    top: 50%;
+}
