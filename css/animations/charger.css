@@ -18,7 +18,7 @@
   height: 40px;
   background: #92C81A;
   float: left;
-  animation: stretch 4s 1 linear;
+  animation: stretch 2s 1 linear;
   animation-fill-mode: forwards;
   border-radius: 5px;
 }
@@ -29,7 +29,7 @@
 	text-align: center;
 	font-size: 3em;
 	font-family: "VT323", monospace;
-	animation: appear 4s 1;
+	animation: appear 3s 1;
 }
 
 @keyframes stretch {

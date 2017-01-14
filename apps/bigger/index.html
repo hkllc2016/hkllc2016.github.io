@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animations/charger.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/bigger.css">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
     <!-- JQuery -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+
 </head>
 
 <body class="main_bg">
@@ -24,16 +22,18 @@
       <a href="/">HOME</a>
     </div>
     <div class="navbar_type1">
-       <a href="apps.html">Apps</a>
-       <a href="blog.html">Blog</a>
-       <a href="about.html">About</a>
+       <a href="/apps.html">Apps</a>
+       <a href="/blog.html">Blog</a>
+       <a href="/about.html">About</a>
     </div>
 </header>
 
-<!-- Greeting Animation -->
-<div class="battery">
-  <div class="bar"></div>
-  <p class="greeting">Hi, Welcome!<br>And...nothing else.</p>
+<!-- Apps -->
+<div class="container">
+  <h2 class="text-left">Bigger and Bigger!</h2>
+  <div id="displaywindow">
+    <canvas id="playarea"></canvas>
+  </div>
 </div>
 
 <!-- Footer -->
@@ -41,5 +41,6 @@
     <p>&copyPixeLiu 2017</p>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>

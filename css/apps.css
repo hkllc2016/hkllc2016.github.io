@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+	font-family: "DejaVu Sans Mono";
+	color: black; 
+}
+
+img {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #000000;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	float:left;
+	background-color: #D3D3D3;
+}
+
+.container{
+	width: 800px;
+}
+
+.container a {
+	position: absolute;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+.container > div {
+	position: relative;
+}
+
+.container > h1 {
+	font-size: 2.5em;
+	margin-bottom: 50px;
+}
+
+#biggerImg {
+	width: 440px;
+	height: 240px;
+}
+
+#bigger {
+	height: 290px;
+}
+
+#bigger > a {
+	top: 220px;
+	left: 480px;
+}
+
+.title {
+	position: absolute;
+	top: 20px;
+	left: 480px;
+}
+
+.title > p {
+	float: left;
+	color: maroon;
+	font-size: 1.8em;
+	height: 20px;
+	width: 280px;
+	margin: 5px auto;
+}
+
+.content {
+	position: absolute;
+	top: 90px;
+	left: 480px;
+	width: 250px;
+	color: black;
+	font-size: 18px;
+	margin: 0px auto;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+.content > p {
+	color: black;
+	font-size: 14px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.container > div {
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid black;
+	background-color: #D3D3D3;
+}
+
+#header-nav {
+	background: #8A8A8A;
+	border: 0;
+	border-radius: 0;
+	height: 40px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+
+@media (min-width: 768px) {
+}
+
+/****	Desktop version	****/
+@media (min-width: 992px) {
+
+}
+
+/****	Tablet version	****/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/****	Mobile version	****/
+@media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
+}

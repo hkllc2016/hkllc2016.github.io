@@ -2,6 +2,21 @@
   background-color: #EEE8AA;
 }
 
+.navbar_home {
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.navbar_home > a {
+	margin-right: 20px;
+	margin-left: 30px;
+	font-family: "DejaVu Sans Mono";
+	font-size: 2em;
+	color: #A1A1A1;
+	text-decoration: none;
+}
+
 .navbar_type1 {
 	float: right;
 	margin-right: 10px;
@@ -21,4 +36,9 @@
 	position: absolute;
 	right: 10px;
 	bottom: 0;
+}
+
+.container {
+	position: relative;
+	top: 100px;
 }
